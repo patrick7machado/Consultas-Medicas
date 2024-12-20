@@ -1,0 +1,29 @@
+.botao_flutuante{
+    position: relative;
+}
+
+.botao_flutuante .botao_flutuante_cadastro{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 16px;
+    bottom: 90px;
+    background-color: var( --cor-botao-endereco);
+    border: transparent;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+    z-index: 5;
+}
+
+button.botao__flutuante-cadastro span{
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+  }
+
